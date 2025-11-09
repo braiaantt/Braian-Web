@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body>
+    <main id="main-box">
+        <!-- ====== SECTION: Presentation ====== -->
+        <section id="presentation">
+            <div>
+                <h1 id="user-name">User Name</h1>
+                <h2 id="user-profession">Profession</h2>
+            </div>
+            <img id="user-photo" src="images/user-img.png">
+        </section>
+
+        <!-- ====== SECTION: About ====== -->
+        <section id="about">
+                <h2>Sobre mí</h2>
+                <p id="user-about"></p>
+        </section>
+
+        <!-- ====== SECTION: Technologies ====== -->
+        <section id="technologies">
+            <div id="tech-container"></div>
+            <template id="tech-template">
+                <div class="tech-item">
+                    <img class="tech-img">
+                    <p class="tech-name"></p>
+                </div>
+            </template>
+        </section>
+
+        <!-- ====== SECTION: Projects ====== -->
+        <section id="projects">
+            <h2>Proyectos</h2>
+            <div id="project-container"></div>
+            <template id="project-template">
+                <div class="project-item">
+                    <h3 class="project-name"></h3>
+                    <img class="project-img">
+                    <p class="project-about"></p>
+                </div>
+            </template>
+        </section>
+
+    </main>
+
+    <script type="module" src="scripts/index.js"></script>
+</body>
+
+</html>
+<!DOCTYPE html>

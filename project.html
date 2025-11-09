@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="styles/project.css">
+</head>
+
+<body>
+    <h1>Project Name</h1>
+
+    <main id="main">
+        <div id="sections-container">
+            <!-- ====== SECTION: About ====== -->
+            <section id="about">
+                <h2>About</h2>
+                <p id="about-text"></p>
+            </section>
+
+            <!-- ====== SECTION: Features ====== -->
+            <section id="features">
+                <h2>Features</h2>
+                <ul id="features-list"></ul>
+            </section>
+
+            <!-- ====== SECTION: Technologies ====== -->
+            <section id="technologies">
+                <h2>Technologies</h2>
+                <div id="tech-container"></div>
+
+                <template id="tech-template">
+                    <div class="tech-item">
+                        <img class="tech-img">
+                        <p class="tech-name"></p>
+                   </div>
+                </template>
+
+            </section>
+
+            <!-- ====== SECTION: Technical Information ====== -->
+            <section id="technical-info">
+                <h2>Technical Information</h2>
+                <ul id="tech-info-list"></ul>
+            </section>
+
+            <!-- ====== SECTION: Comments ====== -->
+            <section id="comments">
+                <h2>My Comments</h2>
+                <p id="user-comment"></p>
+            </section>
+
+        </div>
+
+        <!-- ====== SECTION: Gallery -->
+        <section id="gallery">
+            <h2 id="gallery-title">Gallery</h2>
+
+            <div id="gallery-container">
+                <button class="image-buttons" id="prev-button">⟨</button>
+                <img id="image" src="images/img.png" alt="Project screenshot">
+                <button class="image-buttons" id="next-button">⟩</button>
+            </div>
+        </section>
+    </main>
+    
+    <script type="module" src="scripts/project.js"></script>
+</body>
+
+</html>
