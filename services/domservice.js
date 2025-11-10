@@ -2,13 +2,13 @@ export function setText(elementId, text){
     document.getElementById(elementId).textContent = text;
 }
 
-export function fillList(elementId, items, key){
+export function fillList(elementId, items){
     const list = document.getElementById(elementId);
     list.innerHTML = "";
 
-    items.forEach(obj => {
+    items.forEach(item => {
         const li = document.createElement("li");
-        li.textContent = key ? obj[key] : obj;
+        li.textContent = item;
         list.appendChild(li);
     });
 
