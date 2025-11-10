@@ -6,9 +6,9 @@ document.addEventListener("DOMContentLoaded", () => {
     .then(data =>{
 
         setText("about-text", data.about);
-        fillList("features-list", data.features, "feat");
+        fillList("features-list", data.features);
         renderTechnologies(data.techs);
-        fillList("tech-info-list", data.techInfo, "info");
+        fillList("tech-info-list", data.techInfo);
         setText("user-comment", data.userComment);
 
     })
