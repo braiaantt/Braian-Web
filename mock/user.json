@@ -1,10 +1,9 @@
 {
-    "info": {
-        "name" : "Ramses Braian",
-        "profession" : "Desarrollador de Software",
-        "photo" : "images/user-img.png",
-        "about" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repudiandae molestias adipisci incidunt saepe numquam, deserunt temporibus soluta cupiditate, repellat rerum laudantium facere eos provident. Consectetur eos aliquam vitae. Nam."
-    },
+    "userName" : "Ramses Braian",
+    "userProfession" : "Desarrollador de Software",
+    "userPhoto" : "images/user-img.png",
+    "userAbout" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repudiandae molestias adipisci incidunt saepe numquam, deserunt temporibus soluta cupiditate, repellat rerum laudantium facere eos provident. Consectetur eos aliquam vitae. Nam.",
+
     "techs" : [
         {"name" : "Git", "icon" : "images/user-img.png"},
         {"name" : "C++", "icon" : "images/user-img.png"},
@@ -14,9 +13,9 @@
         {"name" : "VisualStudio Code", "icon" : "images/user-img.png"}
     ],
     "projects" : [
-        {"img" : "images/img.png", "name" : "Proyecto 1", "about" : "Esta es una descripcion pequeña para el proyecto 1. Entonces, no se que mas poner adios"},
-        {"img" : "images/img.png", "name" : "Proyecto 2", "about" : "Esta es una descripcion pequeña para el proyecto 2. Entonces, no se que mas poner adios"},
-        {"img" : "images/img.png", "name" : "Proyecto 3", "about" : "Esta es una descripcion pequeña para el proyecto 3. Entonces, no se que mas poner adios"},
-        {"img" : "images/img.png", "name" : "Proyecto 4", "about" : "Esta es una descripcion pequeña para el proyecto 4. Entonces, no se que mas poner adios"}
+        {"img" : "images/img.png", "name" : "Proyecto 1", "smallAbout" : "Esta es una descripcion pequeña para el proyecto 1. Entonces, no se que mas poner adios"},
+        {"img" : "images/img.png", "name" : "Proyecto 2", "smallAbout" : "Esta es una descripcion pequeña para el proyecto 2. Entonces, no se que mas poner adios"},
+        {"img" : "images/img.png", "name" : "Proyecto 3", "smallAbout" : "Esta es una descripcion pequeña para el proyecto 3. Entonces, no se que mas poner adios"},
+        {"img" : "images/img.png", "name" : "Proyecto 4", "smallAbout" : "Esta es una descripcion pequeña para el proyecto 4. Entonces, no se que mas poner adios"}
     ]
 }
