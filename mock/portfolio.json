@@ -1,21 +1,21 @@
 {
-    "userName" : "Ramses Braian",
-    "userProfession" : "Desarrollador de Software",
-    "userPhoto" : "images/user-img.png",
-    "userAbout" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repudiandae molestias adipisci incidunt saepe numquam, deserunt temporibus soluta cupiditate, repellat rerum laudantium facere eos provident. Consectetur eos aliquam vitae. Nam.",
+    "user_name" : "Ramses Braian",
+    "user_profession" : "Desarrollador de Software",
+    "user_photo" : "images/user-img.png",
+    "user_about" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repudiandae molestias adipisci incidunt saepe numquam, deserunt temporibus soluta cupiditate, repellat rerum laudantium facere eos provident. Consectetur eos aliquam vitae. Nam.",
 
     "techs" : [
-        {"name" : "Git", "icon" : "images/user-img.png"},
-        {"name" : "C++", "icon" : "images/user-img.png"},
-        {"name" : "Python", "icon" : "images/user-img.png"},
-        {"name" : "JavaScript", "icon" : "images/user-img.png"},
-        {"name" : "Qt Creator", "icon" : "images/user-img.png"},
-        {"name" : "VisualStudio Code", "icon" : "images/user-img.png"}
+        {"name" : "Git", "icon_src" : "images/user-img.png"},
+        {"name" : "C++", "icon_src" : "images/user-img.png"},
+        {"name" : "Python", "icon_src" : "images/user-img.png"},
+        {"name" : "JavaScript", "icon_src" : "images/user-img.png"},
+        {"name" : "Qt Creator", "icon_src" : "images/user-img.png"},
+        {"name" : "VisualStudio Code", "icon_src" : "images/user-img.png"}
     ],
     "projects" : [
-        {"img" : "images/img.png", "name" : "Proyecto 1", "smallAbout" : "Esta es una descripcion pequeña para el proyecto 1. Entonces, no se que mas poner adios"},
-        {"img" : "images/img.png", "name" : "Proyecto 2", "smallAbout" : "Esta es una descripcion pequeña para el proyecto 2. Entonces, no se que mas poner adios"},
-        {"img" : "images/img.png", "name" : "Proyecto 3", "smallAbout" : "Esta es una descripcion pequeña para el proyecto 3. Entonces, no se que mas poner adios"},
-        {"img" : "images/img.png", "name" : "Proyecto 4", "smallAbout" : "Esta es una descripcion pequeña para el proyecto 4. Entonces, no se que mas poner adios"}
+        {"id" : "1", "cover_src" : "images/img.png", "name" : "Proyecto 1", "small_about" : "Esta es una descripcion pequeña para el proyecto 1. Entonces, no se que mas poner adios"},
+        {"id" : "2","cover_src" : "images/img.png", "name" : "Proyecto 2", "small_about" : "Esta es una descripcion pequeña para el proyecto 2. Entonces, no se que mas poner adios"},
+        {"id" : "3","cover_src" : "images/img.png", "name" : "Proyecto 3", "small_about" : "Esta es una descripcion pequeña para el proyecto 3. Entonces, no se que mas poner adios"},
+        {"id" : "4","cover_src" : "images/img.png", "name" : "Proyecto 4", "small_about" : "Esta es una descripcion pequeña para el proyecto 4. Entonces, no se que mas poner adios"}
     ]
 }
