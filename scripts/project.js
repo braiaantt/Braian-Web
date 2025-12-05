@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         setText("project-name", data.name);
         setText("about-text", data.big_about);
         fillList("features-list", featStrings);
-        renderTechnologies(data.techs);
+        renderTechnologies(data.techs, API);
         fillList("tech-info-list", infoStrings);
         setText("user-comment", data.user_comment);
         loadGalleryImages(data.img_paths, API);

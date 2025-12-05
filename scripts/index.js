@@ -11,9 +11,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     .then(response => response.json())
     .then(data => {
 
-        renderUserInfo(data);
-        renderTechnologies(data.techs);
-        renderProjects(data.projects);
+        renderUserInfo(data, API);
+        renderTechnologies(data.techs, API);
+        renderProjects(data.projects, API);
 
     })
     .catch(error => console.log("Error al obtener datos: ", error));
