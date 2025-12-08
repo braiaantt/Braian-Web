@@ -14,10 +14,10 @@ Es un sitio dinámico que obtiene sus datos desde una api tambien desarrollada p
 
 ## 🎨 Diseño y experiencia de usuario
 
-Layout responsivo adaptable a móvil y escritorio.
+- Layout responsivo adaptable a móvil y escritorio.
 
-Se prioriza la simplicidad, la lectura y la navegación clara.
+- Se prioriza la simplicidad, la lectura y la navegación clara.
 
-Estilo visual limpio, moderno y funcional
+- Estilo visual limpio, moderno y funcional
 
-Enfoque en legibilidad y accesibilidad para mostrar la información de manera directa
+- Enfoque en legibilidad y accesibilidad para mostrar la información de manera directa
