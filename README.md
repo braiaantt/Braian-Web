@@ -21,3 +21,8 @@ Es un sitio dinámico que obtiene sus datos desde una api tambien desarrollada p
 - Estilo visual limpio, moderno y funcional
 
 - Enfoque en legibilidad y accesibilidad para mostrar la información de manera directa
+
+## 🚀Implementaciones futuras
+
+- Agregar un header nav para facilitar la navegación entre la página principal y cada proyecto
+- Agregar una sección de link para facilitar acceso al repositorio en cada proyecto
